@@ -15,13 +15,13 @@ interface CropperPhotoProps {
 
 const CropperPhoto: React.FC<CropperPhotoProps> = ({image, getNewPhoto, cropPhoto, isCropped}) => {
     const handleCropImage = () => {
-        ImagePicker.openCropper({
+        ImagePicker.openCropper({ // Открыть фотографию для обрезки
             mediaType: 'photo',
             path: image.path,
             width: image.width,
             height: image.height,
             cropping: true,
-            cropperCircleOverlay: true,
+            cropperCircleOverlay: true, // Обрезка фото в виде окружности
             freeStyleCropEnabled: true,
             cropperChooseText: 'Обрезать',
             cropperCancelText: 'Назад',

@@ -9,7 +9,7 @@ const EditPhoto = () => {
     const [error, setError] = React.useState<Error | null>(null);
     const [isCropped, setIsCropped] = React.useState<boolean>(false); // Обрезанная уже фотография или нет
 
-    const takePhotoFromGallery = () => {
+    const takePhotoFromGallery = () => { // Функция для выбора фотографии из галереи
         ImagePicker.openPicker({
             width: 400,
             height: 400,
@@ -22,7 +22,7 @@ const EditPhoto = () => {
             })
     }
 
-    const cropPhoto = (newImage: CropPickerImage): void => {
+    const cropPhoto = (newImage: CropPickerImage): void => { // Обрезать фотографию
         setImage(newImage);
         setIsCropped(true)
     }
