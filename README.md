@@ -10,10 +10,6 @@ PhotoEditor - это простое в использовании приложе
 
 ### 3. Сохраните результат: После того как вы удовлетворены результатом, Вы можете просмотреть свое обрезанное изображение на экране.
 
-# Примеры использования
-
-<video src='https://github.com/Sergey-Sverdlov/React-Native/assets/61983829/67012467-b8d9-4407-a335-908bec4df78d' width=280/>
-
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
@@ -96,7 +92,9 @@ To learn more about React Native, take a look at the following resources:
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
 
+# Примеры использования
 
+<video src='https://github.com/Sergey-Sverdlov/React-Native/assets/61983829/67012467-b8d9-4407-a335-908bec4df78d' width=280/>
 
 
 
