@@ -21,7 +21,9 @@ PhotoEditor - это простое в использовании приложе
 
 # Примеры использования
 
-<video src='https://github.com/Sergey-Sverdlov/React-Native/assets/61983829/67012467-b8d9-4407-a335-908bec4df78d' width=280/>
+<video src='https://github.com/Sergey-Sverdlov/React-Native/assets/61983829/d4400df2-6eb3-4b40-bca4-0c7f66644f1e' width=280/>
+
+
 
 
 
